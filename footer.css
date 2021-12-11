@@ -1,0 +1,146 @@
+.low4Wrapper ,.low5Wrapper{
+    height: auto;
+    width: 100%;
+    padding: 1vw 0;
+}
+
+.low4Wrapper {
+    box-shadow: 0 -0.4vw .5vw darkgray;
+}
+
+.low4Fluid, .low5Fluid {
+    height: auto;
+    margin: 0 13vw;
+    display: flex;
+}
+
+.low5Fluid {
+    padding-bottom: 1vw;
+    margin: 0 calc(18vw - 3px);
+}
+
+.low4Fluid {
+    line-height: 3vw;
+    justify-content: space-evenly;
+}
+
+.low4Fluid1 {
+    width: 40%;
+    border-right: thin solid lightcyan;
+}
+
+.low4Fluid1,.low4Fluid2 {
+    height: 13.3vw;
+    padding: 1vw 0;
+    color: white;
+    font-family: 'Varela-round',sans-serif;
+}
+
+.low4Fluid2 {
+    width: 40%;
+}
+
+.common1 {
+    font-size: 1.8vw;
+    font-weight: bolder;
+}
+
+.common2 {
+    font-size: 0.8vw;
+    font-weight: lighter;
+    color: lightcyan;
+}
+
+.lowMar {
+    height: auto;
+    background-color: rgb(0, 27, 54);
+}
+
+.help:hover, .feedback:hover {
+    color: aqua;
+    text-decoration: underline;
+    text-underline-offset: 0.2vw;
+}
+
+.low5Fluid1{
+    width: 50%;
+}
+
+.low5Fluid2 {
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+
+    border-radius: 3vw;
+}
+
+.low5Fluid3 {
+    width: 15%;
+}
+
+.imgIcons {
+    width: 3vw;
+}
+
+.low5Wrapper {
+    margin: 0;
+    padding: 0;
+}
+
+.low5Fluid2,.low5Fluid1,.low5Fluid3 {
+    align-self: center;
+    z-index: 0;
+}
+
+.low5Wrapper {
+    background-color: rgb(0, 27, 54);
+}
+
+.hr {
+    background-color: lightcyan;
+    height: 0vw;
+    border: .1px solid lightcyan;
+}
+
+.low5Fluid2:hover {
+    z-index: 1;
+}
+
+.low5Img,.low5Img a {  
+    background-color: rgb(0, 27, 54); 
+}
+
+.imgIcons {
+    border-radius: 50%;
+    background-color: white;
+}
+
+.imgIcon1:hover {
+    background-color: rgb(0, 27, 54);
+}
+
+.imgIcon2:hover {
+    background-color: rgb(29, 155, 240);
+}
+
+.imgIcon3:hover {
+    background-color: blue;
+}
+
+.imgIcon6:hover {
+    background-color: darkblue;
+}
+
+.imgIcon5:hover {
+    background-color: rgb(221, 0, 0);
+}
+
+.imgIcon4:hover {
+    background-color: rgb(255, 75, 75);
+}
+
+.low4Wrapper {
+    background-color: rgb(0, 27, 54);
+}
+
+

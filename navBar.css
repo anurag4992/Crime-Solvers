@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&family=Varela+Round&display=swap');
+
+
+* 
+{
+    margin: 0;
+    padding: 0;   
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    margin:0; /*Add this*/
+}
+
+body {
+    background-color: #eee; 
+}
+
+.navBar {
+    display: flex;
+    background-color: rgb(0, 27, 54);
+    color: white;
+    align-items: center;
+    height: auto;
+    font-size: 1.3vw;
+    position: sticky;
+    top: 0;
+    border-bottom: 1px solid lightcyan;
+    z-index: 2;
+    box-shadow: 0 .3vw .5vw darkgray;
+}
+
+.navBar div a {
+    padding: 1.4vw;
+    color: aqua;
+    position: relative;
+    right: 0.5vw;
+    text-decoration: none;
+}
+
+.activ:active {
+    color: green;
+}
+
+.right1 {
+    height: 3.2vw;
+    line-height: 3vw;
+    width: 13vw;
+    text-align: center;
+    color: #04AA6D;
+    border-radius: 0.5vw;
+    background-color: white;
+    border: 2px solid whitesmoke;
+}
+
+.right {
+    position: relative;
+    right: -43vw;
+}
+
+.navBar img {
+    height: 4.2vw;
+    width: auto;
+}
+
+.imgClass {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: -0.4vw;
+    font-size: 2vw;
+    font-weight: bolder;
+}
+
+.navBar div a:hover{
+    color: yellow;
+    cursor: pointer;
+    transition: color 0.5s ease-out;
+}
+
+
+@media screen and (max-width:750px) {
+
+    .middleSection,.lowerUpper,.navBar {
+        flex-direction: column;
+        
+        
+        align-items: center;
+    }
+
+    .navBar {
+        position: relative;
+    }
+
+    .right1, .emergency {
+        display: none;
+    }
+  
+
+    .right {
+        position: relative;
+        right: -0.5vw;
+    }
+
+    .imgClass {
+        flex-direction: column;
+        width: 20%;
+        font-size: 3vw;
+    }
+
+    .imgClass img{
+        width: 23vw;
+        height: 20vw;
+
+    }
+
+    .imgClass marquee {
+        width: 30vw;
+        background-color: #04AA6D;
+        line-height: 4vw;
+        height: 4vw;
+        border: 2px solid #00643fa4;
+        border-radius: 1vw;
+    }
+
+    .navBar div {
+        font-size: 4vw;
+        margin: 1vw 0;
+    }
+
+    .middleSection .middleLeft {
+        margin: 4vw 15vw;
+        width: auto;
+    }
+
+    .welcome span{
+        font-size: 7.2vw;   
+    }
+
+    .middleSection .middleRight {
+        margin: 4vw 10vw;
+        width: auto;
+       
+    }
+
+    .middleRight img , .middleLeft img{
+        object-fit: 45% 100%;
+        
+    }
+
+    .priori span {
+        font-size: 4.2vw;
+        color: rgba(6, 117, 117, 0.815);
+    }
+
+    .middleCenter div:not(.welcome) span {
+        font-size: 4.2vw;
+    }
+
+    .middleCenter .btn {
+        width: 51vw;
+        height: 6vw;
+        font-size: 4vw;
+    }
+
+    .lower .follow{
+        font-size: 4vw;
+        position: relative;
+        bottom: -4vw;
+    }
+
+    .lower .icons a img{
+        height: 4vw;
+        width: 4vw;
+    }
+
+    .lower .contact {
+    height: auto;
+    width: auto;
+    font-size: 2.6vw;
+    position: relative;
+    bottom: -1vw;
+    line-height: 4vw;
+    margin: 1vw 0 1vw;
+    position: relative;
+    bottom: 0.2vw;
+    right: 0.6vw;
+    }
+
+    .lower .icons {
+        position: relative;
+        bottom: -5vw;
+    }
+    
+    
+}
+    
+

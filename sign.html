@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signIn</title>
+    <link rel="shortcut icon" href="cslogo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="signIn.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <div class="container my-5">
+        <form class="container my-2 p-4 border border-success" style="border-radius:1vw;width:60%">
+            <h1 style="color: darkblue;">CRIME SOLVED</h1>
+            <h4 style="color: darkblue;" class="my-4">Create your CS account<br><span style="font-size: 1vw;letter-spacing: .6vw;">to register your complaint to CS</span></h4>
+
+         
+
+            <div class="row my-4">
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                </div>
+            </div>
+            
+            <div class="input-group mb-3 my-4">
+                <input type="text" class="form-control" placeholder="Username" aria-label="Recipient's username"
+                    aria-describedby="basic-addon2">
+                <span class="input-group-text" id="basic-addon2">@cs.com</span>
+            </div>
+
+            <div class="row my-3 my-4">
+                <div class="col">
+                    <input type="password" class="form-control" placeholder="Password" aria-label="First name">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Confirm" aria-label="Last name">
+                </div>
+
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                    Show password
+                </label>
+            </div>
+            <div class="my-4" style="display: flex;justify-content: space-between;">
+                <button type="button" class="btn btn-primary">Next</button>
+                <a href="signin.html" class="link-primary" style="text-decoration: none;">Sign in instead</a>
+            </div>
+        </form>
+
+        <div class="d-flex bd-highlight mb-3 container w-50">
+            <div class="dropdown me-auto p-2 bd-highlight">
+                <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    English(UK)
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                    <li><a class="dropdown-item" href="#">Hindi</a></li>
+                    <li><a class="dropdown-item" href="#">Spanish(Bella ciao)</a></li>
+                    <li><a class="dropdown-item" href="#">Ongara</a></li>
+                </ul>
+            </div>
+            <div class="p-2 bd-highlight" ><a href="#" style="text-decoration: none;" class="link-info helpPrivacy">Help</a></div>
+            <div class="p-2 bd-highlight" ><a href="#" style="text-decoration: none;" class="link-info helpPrivacy">Privacy</a></div>
+        </div>
+    </div>
+</body>
+
+</html>

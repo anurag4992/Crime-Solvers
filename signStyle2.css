@@ -1,0 +1,10 @@
+.problem{
+    border-left: 3px solid rgb(189, 189, 190) ;
+    height: auto;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+}
+iframe{
+    width: 46vw;
+}

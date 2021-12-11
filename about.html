@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="aboutStyle1.css">
+    <link rel="stylesheet" href="navBar.css">
+    <link rel="stylesheet" href="footer.css">
+    <script src="about.js"></script>
+    <link rel="icon" href="cslogo.jpg">
+    <script src="cs.js"></script>
+</head>
+
+<body>
+    <div class="navBar">
+        <div class="imgClass"><img src="cslogo.jpg">
+          <marquee>Crime Solver</marquee>
+        </div>
+        <div><a href="crimeSolved.html" target="_self">Home</a></div>
+        <div><a href="about.html" target="_self">About</a></div>
+        <div><a href="contact.html" target="_self">Contact</a></div>
+        <div class="right right1" onmouseover="mOver(this)" onmouseout="mOut(this)">Emergency
+        </div>
+        <div class="right right2"><a href="sign.html" target="_blank">Sign up</a></div>
+      </div>
+    <section class="heading" style="border: 2px 0 solid #04AA6D;">
+        <h1>Learn About Online Crime</h1>
+    </section>
+    <section class="mid">
+        <div class="brief">
+            In general cybercrime may be defined as “Any unlawful act where computer or communication device or computer
+            network is used to commit or facilitate the commission of crime” <br>
+
+            Below is a list for some of the cybercrimes along with their indicative explanation. This is to facitilate
+            better reporting of complaints.
+        </div>
+        
+        <!--1-->
+            <button type="button" onclick="busy_fun1()" ><div id="back1" class="back"><span>1. CHILD PORNOGRAPHY/ CHILD SEXUALLY ABUSIVE MATERIAL (CSAM)</span>
+                <span style="float: right; font-size: 2vw; font-weight: bold;">+</span></div>
+                <div class="text" id="busy1">Child sexually abusive material (CSAM) refers to material containing sexual
+                    image in any form, of a child who is abused or sexually exploited. Section 67 (B) of IT Act states
+                    that “it is punishable for publishing or
+                    transmitting of material depicting children in sexually explicit act, etc. in electronic form.
+                </div>
+            </button>
+        <!--2-->
+            <button type="button" onclick="busy_fun2()" ><span id="back2"  class="back">2. CYBER BULLYING
+                <span style="float: right; font-size: 2vw; font-weight: bold;">+</span></span>
+                <div class="text" id="busy2">A form of harassment or bullying inflicted through the use of electronic or
+                    communication devices such as computer, mobile phone, laptop, etc.
+                </div>
+            </button>
+        <!--3-->
+            <button type="button" onclick="busy_fun3()"><span id="back3"  class="back">3. CYBER STALKING
+                <span style="float: right; font-size: 2vw; font-weight: bold;">+</span></span>
+                <div class="text" id="busy3">Cyber stalking is the use of electronic communication by a person to follow
+                    a person, or attempts to contact a person to foster personal interaction repeatedly despite a clear
+                    indication of disinterest by such person; or monitors the internet, email or any other form of
+                    electronic communication commits the offence of stalking.
+                </div>
+            </button>
+        <!--4-->
+            <button type="button" onclick="busy_fun4()"><span id="back4"  class="back">4. CYBER GROOMING
+                <span style="float: right; font-size: 2vw; font-weight: bold;">+</span></span>
+                <div class="text" id="busy4">Cyber Grooming is when a person builds an online relationship with a young
+                    person and tricks or pressures him/ her into doing sexual act.
+                </div>
+            </button>
+        <!--5-->
+        <button type="button" onclick="busy_fun5()"><span id="back5"  class="back">5. ONLINE JOB FRAUD
+            <span style="float: right; font-size: 2vw; font-weight: bold;">+</span></span>
+            <div class="text" id="busy5">Online Job Fraud is an attempt to defraud people who are in need of employment by giving them a false hope/ promise of better employment with higher wages.
+            </div>
+        </button>
+        <!--6-->
+        <button type="button" onclick="busy_fun6()"><span id="back6"  class="back">6. ONLINE SEXTORTION
+            <span style="float: right; font-size: 2vw; font-weight: bold;">+</span></span>
+            <div class="text" id="busy6">Online Sextortion occurs when someone threatens to distribute private and sensitive material using an electronic medium if he/ she doesn’t provide images of a sexual nature, sexual favours, or money.
+            </div>
+        </button>
+        <!--7-->
+        <button type="button" onclick="busy_fun7()"><span id="back7"  class="back">7. VISHING
+            <span style="float: right; font-size: 2vw; font-weight: bold;">+</span></span>
+            <div class="text" id="busy7">Vishing is an attempt where fraudsters try to seek personal information like Customer ID, Net Banking password, ATM PIN, OTP, Card expiry date, CVV etc. through a phone call.
+            </div>
+        </button>
+        <!--8-->
+        <button type="button" onclick="busy_fun8()"><span id="back8"  class="back">8. SEXTING
+            <span style="float: right; font-size: 2vw; font-weight: bold;">+</span></span>
+            <div class="text" id="busy8">Sexting is an act of sending sexually explicit digital images, videos, text messages, or emails, usually by cell phone.
+            </div>
+        </button>
+        <!--9-->
+        <button type="button" onclick="busy_fun9()"><span id="back9"  class="back">9. SMISHING
+            <span style="float: right; font-size: 2vw; font-weight: bold;">+</span></span>
+            <div class="text" id="busy9">Smishing is a type of fraud that uses mobile phone text messages to lure victims into calling back on a fraudulent phone number, visiting fraudulent websites or downloading malicious content via phone or web.
+            </div>
+        </button>
+        <!--10-->
+        <button type="button" onclick="busy_fun10()"><span id="back10"  class="back">10. SIM SWAP SCAM
+            <span style="float: right; font-size: 2vw; font-weight: bold;">+</span></span>
+            <div class="text" id="busy10">SIM Swap Scam occurs when fraudsters manage to get a new SIM card issued against a registered mobile number fraudulently through the mobile service provider. With the help of this new SIM card, they get One Time Password (OTP) and alerts, required for making financial transactions through victim's bank account. Getting a new SIM card against a registered mobile number fraudulently is known as SIM Swap.
+            </div>
+        </button>
+        <!--11-->
+        <button type="button" onclick="busy_fun11()"><span id="back11"  class="back">11. DEBIT/CREDIT CARD FRAUD
+            <span style="float: right; font-size: 2vw; font-weight: bold;">+</span></span>
+            <div class="text" id="busy11">Credit card (or debit card) fraud involves an unauthorized use of another's credit or debit card information for the purpose of purchases or withdrawing funds from it.
+            </div>
+        </button>
+        <!--12-->
+        <button type="button" onclick="busy_fun12()"><span id="back12"  class="back">12. IMPERSONATION AND IDENTITY THEFT
+            <span style="float: right; font-size: 2vw; font-weight: bold;">+</span></span>
+            <div class="text" id="busy12">Impersonation and identity theft is an act of fraudulently or dishonestly making use of the electronic signature, password or any other unique identification feature of any other person.
+            </div>
+        </button>
+        <!--13-->
+        <button type="button" onclick="busy_fun13()"><span id="back13"  class="back">13. PHISHING
+            <span style="float: right; font-size: 2vw; font-weight: bold;">+</span></span>
+            <div class="text" id="busy13">Phishing is a type of fraud that involves stealing personal information such as Customer ID, IPIN, Credit/Debit Card number, Card expiry date, CVV number, etc. through emails that appear to be from a legitimate source.
+            </div>
+        </button>
+        <!--14-->
+        <button type="button" onclick="busy_fun14()"><span id="back14"  class="back">14. SPAMMING
+            <span style="float: right; font-size: 2vw; font-weight: bold;">+</span></span>
+            <div class="text" id="busy14">Spamming occurs when someone receives an unsolicited commercial messages sent via email, SMS, MMS and any other similar electronic messaging media. They may try to persuade recepient to buy a product or service, or visit a website where he can make purchases; or they may attempt to trick him/ her into divulging bank account or credit card details.
+            </div>
+        </button>
+        <!--15-->
+        <button type="button" onclick="busy_fun15()"><span id="back15"  class="back">15. RANSOMWARE
+            <span style="float: right; font-size: 2vw; font-weight: bold;">+</span></span>
+            <div class="text" id="busy15">Ransomware is a type of computer malware that encrypts the files, storage media on communication devices like desktops, Laptops, Mobile phones etc., holding data/information as a hostage. The victim is asked to pay the demanded ransom to get his device decrypts.
+            </div>
+        </button>
+        <!--16-->
+        <button type="button" onclick="busy_fun16()"><span id="back16"  class="back">16. VIRUS, WORMS & TROJANS
+            <span style="float: right; font-size: 2vw; font-weight: bold;">+</span></span>
+            <div class="text" id="busy16">Computer Virus is a program written to enter to your computer and damage/alter your files/data and replicate themselves.
+
+                Worms are malicious programs that make copies of themselves again and again on the local drive, network shares, etc.
+                
+                A Trojan horse is not a virus. It is a destructive program that looks as a genuine application. Unlike viruses, Trojan horses do not replicate themselves but they can be just as destructive. Trojans open a backdoor entry to your computer which gives malicious users/programs access to your system, allowing confidential and personal information to be theft.
+            </div>
+        </button>
+        <!--17-->
+        <button type="button" onclick="busy_fun17()"><span id="back17"  class="back">17. DATA BREACH
+            <span style="float: right; font-size: 2vw; font-weight: bold;">+</span></span>
+            <div class="text" id="busy17">A data breach is an incident in which information is accessed without authorization.
+            </div>
+        </button>
+        <!--18-->
+        <button type="button" onclick="busy_fun18()"><span id="back18"  class="back">18. DENIAL OF SERVICES /DISTRIBUTED DOS
+            <span style="float: right; font-size: 2vw; font-weight: bold;">+</span></span>
+            <div class="text" id="busy18">Denial of Services (DoS) attack is an attack intended for denying access to computer resource without permission of the owner or any other person who is in-charge of a computer, computer system or computer network.
+
+                A Distributed Denial of Service (DDoS) attack is an attempt to make an online service unavailable by overwhelming it with traffic from multiple sources.
+            </div>
+        </button>
+        <!--19-->
+        <button type="button" onclick="busy_fun19()"><span id="back19"  class="back">19. WEBSITE DEFACEMENT
+            <span style="float: right; font-size: 2vw; font-weight: bold;">+</span></span>
+            <div class="text" id="busy19">Website Defacement is an attack intended to change visual appearance of a website and/ or make it dysfunctional. The attacker may post indecent, hostile and obscene images, messages, videos, etc.
+            </div>
+        </button>
+        <!--20-->
+        <button type="button" onclick="busy_fun20()"><span id="back20"  class="back">20. CYBER-SQUATTING
+            <span style="float: right; font-size: 2vw; font-weight: bold;">+</span></span>
+            <div class="text" id="busy20">Cyber-Squatting is an act of registering, trafficking in, or using a domain name with an intent to profit from the goodwill of a trademark belonging to someone else.
+            </div>
+        </button>
+        <!--21-->
+        <button type="button" onclick="busy_fun21()"><span id="back21"  class="back">21. PHARMING
+            <span style="float: right; font-size: 2vw; font-weight: bold;">+</span></span>
+            <div class="text" id="busy21">Pharming is cyber-attack aiming to redirect a website's traffic to another, bogus website.
+            </div>
+        </button>
+        <!--22-->
+        <button type="button" onclick="busy_fun22()"><span id="back22"  class="back">22. CRYPTOJACKING
+            <span style="float: right; font-size: 2vw; font-weight: bold;">+</span></span>
+            <div class="text" id="busy22">Cryptojacking is the unauthorized use of computing resources to mine cryptocurrencies.
+            </div>
+        </button>
+        <!--23-->
+        <button type="button" onclick="busy_fun23()"><span id="back23"  class="back">23. ONLINE DRUG TRAFFICKING
+            <span style="float: right; font-size: 2vw; font-weight: bold;">+</span></span>
+            <div class="text" id="busy23">Online Drug Trafficking is a crime of selling, transporting, or illegally importing unlawful controlled substances, such as heroin, cocaine, marijuana, or other illegal drugs using electronic means.
+            </div>
+        </button>
+        <!--24-->
+        <button type="button" onclick="busy_fun24()"><span id="back24"  class="back">24. ESPIONAGE
+            <span style="float: right; font-size: 2vw; font-weight: bold;">+</span></span>
+            <div class="text" id="busy24">Espionage is the act or practice of obtaining data and information without the permission and knowledge of the owner.
+            </div>
+        </button>
+
+        
+       
+
+    </section>
+    <div class="low4Wrapper" style="margin-top: .8vw;">
+        <div class="low4Fluid">
+          <div class="low4Fluid1">
+            <div class="contact1">
+              <span class="contactUs common1">Contact us</span>
+            </div>
+            <div class="contact2">
+              <span class="phone common2">Phone no. - +91 8924907927</span><br>
+              <span class="email  common2">Email id - anuragvastava4992@gmail.com</span><br>
+              <span class="address common2"> Address - Bishunpura,Sector-58 Noida</span><br>
+              <span class="pincode common2">Pincode - 201301</span>
+            </div>
+          </div>
+          <div class="low4Fluid2">
+            <div class="features">
+              <span class="featuresSpan common1">Features</span>
+            </div>
+            <div class="helpFeedback">
+              <a href="https://cybercrime.gov.in/Webform/Helpline.aspx" target="_blank"><span
+                  class="help common2">Help</span></a><br>
+              <a href="https://cybercrime.gov.in/Webform/Crime_Feedback.aspx" target="_blank"><span
+                  class="feedback common2">Feedback</span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="low5Wrapper">
+        <div class="low5Fluid">
+          <div class="low5Fluid1">
+            <hr class="hr">
+          </div>
+          <div class="low5Fluid2">
+            <div class="low5Img"><a href="https://www.facebook.com/" target="_blank"><img class="imgIcons imgIcon1"
+                  src="facebook-logo3.png" alt="FB"></a></div>
+            <div class="low5Img"><a href="https://twitter.com/?lang=en" target="_blank"><img src="twitter.png"
+                  class="imgIcons imgIcon2" alt="Chidiya"></a></div>
+            <div class="low5Img"><a href="https://www.instagram.com/?hl=en" target="_blank"><img src="instagram.png"
+                  class="imgIcons imgIcon3" alt="IG"></a></div>
+            <div class="low5Img"><a href="https://mail.google.com/" target="_blank"><img src="mail.png"
+                  class="imgIcons imgIcon4" alt="Gmail"></a></div>
+            <div class="low5Img"><a href="https://www.linkedin.com/signup" target="_blank"><img src="youtube.png"
+                  class="imgIcons imgIcon5" alt="LI"></a></div>
+            <div class="low5Img"><a href="https://www.youtube.com/" target="_blank"><img src="linkedin.png"
+                  class="imgIcons imgIcon6" alt="YT"></a></div>
+          </div>
+          <div class="low5Fluid3">
+            <hr class="hr">
+          </div>
+        </div>
+</body>
+
+</html>

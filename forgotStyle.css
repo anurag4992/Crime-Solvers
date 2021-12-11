@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Roboto:wght@100;300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aqua;
+    
+}
+.mainForgot{
+    border: 2px solid rgb(192, 192, 192);
+    width: 70vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2.5vh;
+    padding: 10vh 10px;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-family: 'Roboto', sans-serif;
+}
+
+.equalmargin{
+    margin-top: 7vh;
+}
+.equalmargin >h4>span{
+color: rgb(3, 3, 197);
+}
+.equalmargin >input{
+    padding: 7px 21px;
+    border: 2px solid rgb(204, 204, 204);
+    font-size: 2.5vw;
+    width: 40vw;
+    color: rgb(145, 145, 145);
+    border-radius: 5px;
+    
+}
+.equalmargin >button{
+    width: 30vw;
+    padding: 15px;
+    font-size: 2.5vw;
+    font-weight: bold;
+    box-shadow: 0px 4px  #017c4f;
+    border: none;
+    background-color: #04AA6D;
+    border-radius: 5px;
+
+
+}
+.equalmargin>button:hover{
+    background-color: #017c4f;
+}

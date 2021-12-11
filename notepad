@@ -1,0 +1,55 @@
+<section class="navbar">
+
+        <div class="start">
+            <li class="navCrime" id="CrimeImage">
+                <img src="cslogo.jpg" class="img">
+            </li>
+            <div class="navCrime crime">
+            <marquee behavior="" scrollamount="5" direction="left">Crime Solver</marquee>
+            </div>
+        </div>
+        <div class="center">
+            <li class="navCrime"><a href="crimeSolved.html">Home</a></li>
+            <li class="navCrime"><a href="about.html">About</a></li>
+            <li class="navCrime"><a href="contact.html">Contact Us</a></li>
+        </div>
+        <div class="last">
+            <li class="navCrime container">
+                
+                <button class="emergency">Emergency</button>
+            
+                <div class="overlay">
+                    <div class="text1">Call:- +91 9351925867</div>
+                </div>
+            </li>
+            <li class="navCrime right"><a href="sign.html">Sign In</a></li>
+        </div>
+
+    </section>
+
+
+    <div class="right right1" onmouseover="mOver(this)" onmouseout="mOut(this)">Emergency
+    </div>
+
+    <section class="aboutfooter">
+        <div class="aboutfootertext">
+            <div>Feedback</div>
+            <div class="aboutline"></div>
+            <div>FAQ</div>
+            <div class="aboutline"></div>
+            <div>Contact us</div>
+           
+        </div>
+        <div class="aboutfooterimg">
+            <div class="aboutline"></div>
+            <div><img src="Image/facebook.png" alt=""></div>
+            <div class="aboutline"></div>
+            <div><img src="Image/instagram.png" alt=""></div>
+            <div class="aboutline"></div>
+            <div><img src="Image/linkedin.png" alt=""></div>
+            <div class="aboutline"></div>
+            <div><img src="Image/twitter.png" alt=""></div>
+            <div class="aboutline"></div>
+            <div><img src="Image/youtube.png" alt=""></div>
+        </div>
+      </section>

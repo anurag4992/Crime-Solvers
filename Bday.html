@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>test</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <script>
+        $(document).ready(function(){
+            var pText=$(".p2");
+          $("button").click(function(){
+            $(".p1").toggle(1000,function(){
+                pText.text(function(i,orgText){
+                    var tex="1 more bokra";
+
+                    return orgText+" #"+tex;
+                });
+            });
+           
+          });
+          $("button").dblclick(function(){
+            $(".p2").slideToggle().text("Teen ikke");
+            $(".p1").stop();
+        
+          });
+          $("button").click(function(){
+            $(".p3").animate({
+                height : 'toggle'
+            },"slow");
+                
+          });
+        });
+        </script>
+    <button style="border: 1px solid antiquewhite;width: 100%;background-color: black;color: aliceblue;height: 2vw;">
+        Open it .. u can click me anytimes u want ..
+    </button>
+    <p class="p1" style="display: none; background-color: aliceblue;height: auto;text-align: center; display: flex;justify-content: space-evenly;"><span style="height: 10vw; line-height: 10vw;color:darkblue;font-size: 2.5vw;">bokra ..</span><img src="lov.jpg" style="width: 10vw;height: 10vw;"></p>
+    <p class="p2" style="display: none; background-color: aliceblue;height: auto;text-align: center; display: flex;justify-content: space-evenly;"><span style="height: 10vw; line-height: 10vw;color:darkblue;font-size: 2.5vw;">bokra ..</span><img src="lov1.jpg" style="width: 10vw;height: 10vw;"></p>
+    <p class="p3" style="display: none; background-color: aliceblue;height: auto;text-align: center; display: flex;justify-content: space-evenly;"><span style="height: 10vw; line-height: 10vw;color:darkblue;font-size: 2.5vw;">bokra ..</span><img src="lov2.png" style="width: 10vw;height: 10vw;"></p>
+    <button style="border: 1px solid antiquewhite;width: 100%;background-color: black;color: aliceblue;height: 2vw;">
+        Open it .. u can click me anytimes u want ..
+    </button>
+</body>
+</html>

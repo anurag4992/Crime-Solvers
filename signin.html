@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    <!--nabar Css-->
+    <link rel="stylesheet" href="navBar.css">
+    <!--main page Css-->
+    <link rel="stylesheet" href="signStyle1.css">
+    <link rel="stylesheet" href="signStyle2.css">
+    <link rel="icon" href="cslogo.jpg">
+    <script src="signcolor.js"></script>
+    <script src="cs.js"></script>
+</head>
+
+<body>
+   <!--Navbar-->
+   <div class="navBar" style="box-shadow: 0px 1px 2px #04AA6D;">
+    <div class="imgClass"><img src="cslogo.jpg">
+      <marquee>Crime Solver</marquee>
+    </div>
+    <div><a href="crimeSolved.html" target="_self">Home</a></div>
+    <div><a href="about.html" target="_self">About</a></div>
+    <div><a href="contact.html" target="_self">Contact</a></div>
+    <div class="right right1" onmouseover="mOver(this)" onmouseout="mOut(this)">Emergency
+    </div>
+    <div class="right right2"><a href="sign.html" target="_blank">Sign up</a></div>
+  </div>
+   <!--Main Page-->
+
+    <div>
+        <h1 class="signHead">Crime Registration</h1>
+    </div>
+    <div class="Mid">
+        <div class="left">
+            <a href="login.html" target="frame">
+            <div class="signleft" onclick="colorfunction()" id="color">
+               
+                <div class="loginimg">
+                    <img class="cent" src="Image/user (1).png" alt="">
+                    <h2>Log In</h2>
+                </div>
+            </div></a>
+            <a href="registercrime.html" target="frame">
+            <div class="signleft" onclick="colorfunction2()" id="color2" >
+                <div class="loginimg">
+                    <img src="Image/quill-drawing-a-line.png" alt="">
+                    <h2>Register Crime</h2>
+                </div>
+            </div></a>
+            <a href="forgotPassd.html" target="frame">
+            <div class="signleft" onclick="colorfunction3()" id="color3">
+                <div class="loginimg">
+                   <img src="Image/forgot-password.png" alt="">
+                    <h2>Forgot Password</h2>
+                </div>
+            </div></a>
+        </div>
+        <div class="problem">
+            <iframe src="login.html" frameborder="" name="frame">
+            </iframe>
+        </div>
+    </div>
+</body>
+
+</html>
